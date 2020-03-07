@@ -1,0 +1,32 @@
+{
+  "name": "wdio-app-pom-framework",
+  "version": "1.0.0",
+  "description": "This is pom framewoork with webdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Naveen Khunteta",
+  "license": "ISC",
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^0.8.6",
+    "@types/node": "^8.5.2",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/allure-reporter": "^5.18.6",
+    "@wdio/junit-reporter": "^5.18.6",
+    "@wdio/local-runner": "^5.18.6",
+    "@wdio/mocha-framework": "^5.18.6",
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.18.6",
+    "@wdio/sync": "^5.18.6",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^79.0.3",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.18.6"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.18.6"
+  }
+}

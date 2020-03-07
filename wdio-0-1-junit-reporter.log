@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login_page_feature_test" timestamp="2020-03-07T21:50:21" time="8.803" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login page feature test"/>
+      <property name="capabilities" value="chrome.80_0_3987_132.macosx"/>
+      <property name="file" value="./test/login.test.js"/>
+    </properties>
+    <testcase classname="chrome.80_0_3987_132.macosx.login_page_feature_test" name="verify_login_page_title" time="7.268"/>
+    <testcase classname="chrome.80_0_3987_132.macosx.login_page_feature_test" name="verify_sign_up_link" time="0.084"/>
+    <testcase classname="chrome.80_0_3987_132.macosx.login_page_feature_test" name="verify_login" time="1.451"/>
+  </testsuite>
+</testsuites>
