@@ -127,10 +127,12 @@ exports.config = {
 
     reporters: [
         'spec',
-        ['junit', {
-            outputDir: './'
-        }]
-    ],
+        ['allure', 
+            {
+                outputDir: 'allure-results'
+            }]
+        ],
+
  
     //
     // Options to be passed to Mocha.
